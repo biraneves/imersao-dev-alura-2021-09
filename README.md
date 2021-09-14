@@ -24,3 +24,4 @@ Repositório para publicação das entregas da **Imersão Dev**.
 
 > [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/pen/XWgamZb)
 
+![Captura de tela - 2021-09-14 - 09-34-14](https://user-images.githubusercontent.com/83148400/133280471-d524075d-e63b-49a1-b4d4-7e5aa7be49d4.png)

@@ -7,10 +7,18 @@
     <title>Conversor de Moedas - Imersão Dev - Alura</title>
 </head>
 <body>
-    <dic class="container">
+    <div class="container">
         <h1 class="page-title">Conversor de Moedas</h1>
         <p class="page-subtitle">Converta valores entre diferentes moedas!</p>
         <img src="assets/img/logo-imersao-dev.svg" alt="Logo Imersão Dev" class="logo-imersao-dev">
-    </dic>
+        <div class="radio-buttons">
+            <input type="radio" name="convert-amount" value="opt-d2r" onclick="radioClick()" checked>&nbsp;de USD para BRL
+            <input type="radio" name="convert-amount" value="opt-r2d" onclick="radioClick()" class="space-left">&nbsp;de BRL para USD<br>
+            <input type="radio" name="convert-amount" value="opt-e2r" onclick="radioClick()">&nbsp;de EUR para BRL
+            <input type="radio" name="convert-amount" value="opt-r2e" onclick="radioClick()" class="space-left">&nbsp;de BRL para EUR<br>
+            <input type="radio" name="convert-amount" value="opt-p2r" onclick="radioClick()">&nbsp;de GBP para BRL
+            <input type="radio" name="convert-amount" value="opt-r2p" onclick="radioClick()" class="space-left">&nbsp;de BRL para GBP
+        </div>
+    </div>
 </body>
 </html>

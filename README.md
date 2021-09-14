@@ -25,3 +25,18 @@ Repositório para publicação das entregas da **Imersão Dev**.
 > [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/pen/XWgamZb)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/83148400/133280471-d524075d-e63b-49a1-b4d4-7e5aa7be49d4.png"></p>
+
+## 🤿 Aula 2
+
+### Conversor de moedas 💰
+
+> [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/pen/yLXzYLq)
+
+### Desafios desta aula 🤔
+
+- ✅ Adicionar outras moedas para converter.
+- ❌ Conversor de quilômetro para ano-luz e verificar o tempo que demora para ir de uma estrela a outra.
+    - _A desenvolver..._
+- ✅ Conversor de temperatura.
+    - _Ver acima._
+- ✅ Adicionar uma linha ao projeto desenvolvido para que apareça o valor em bitcoin.

@@ -32,6 +32,8 @@ Repositório para publicação das entregas da **Imersão Dev**.
 
 > [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/pen/yLXzYLq)
 
+<p align="center"><img src="https://user-images.githubusercontent.com/83148400/133340512-bff3cf72-f915-4541-9eff-20512697f688.png"></p>
+
 ### Desafios desta aula 🤔
 
 - ✅ Adicionar outras moedas para converter.

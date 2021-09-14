@@ -36,6 +36,12 @@ body {
     margin-top: 14px;
 }
 
+.disclaimer {
+    font-family: var(--fonte-titulos);
+    color: var(--texto-geral);
+    font-size: 10px;
+}
+
 .logo-imersao-dev {
     width: 110px;
     margin-top: 14px;

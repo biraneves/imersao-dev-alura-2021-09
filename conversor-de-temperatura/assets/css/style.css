@@ -49,3 +49,34 @@ body {
 .space-left {
     margin-left: 60px;
 }
+
+.temperature-input {
+    height: 70px;
+    margin-top: 24px;
+}
+
+#temperature {
+    width: 200px;
+    height: 30px;
+    border: solid 1px var(--fundo);
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+#conversion-button {
+    width: 75px;
+    height: 34px;
+    border: solid 1px var(--fundo);
+    border-radius: 6px;
+    background-color: var(--fundo-botao);
+}
+
+.temperature-output {
+    height: 90px;
+}
+
+#label-temperature-output {
+    font-size: 48px;
+    color: var(--texto-destaque);
+    display: none;
+}

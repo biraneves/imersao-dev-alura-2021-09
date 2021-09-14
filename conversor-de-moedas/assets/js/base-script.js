@@ -57,32 +57,32 @@ function conversionButtonClick() {
         
             case "opt-d2r":
               returnAmount = "R$ " + (parseFloat(inputAmount) * exchangeRate["usd"]).toFixed(2);
-              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) * exchangeRate["usd"] / exchangeRate["btc"]).toFixed(2);
+              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) * exchangeRate["usd"] / exchangeRate["btc"]).toFixed(6);
               break;
             
             case "opt-r2d":
               returnAmount = "US$ " + (parseFloat(inputAmount) / exchangeRate["usd"]).toFixed(2);
-              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) / exchangeRate["btc"]).toFixed(2);
+              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) / exchangeRate["btc"]).toFixed(6);
               break;
               
             case "opt-e2r":
               returnAmount = "R$ " + (parseFloat(inputAmount) * exchangeRate["eur"]).toFixed(2);
-              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) * exchangeRate["eur"] / exchangeRate["btc"]).toFixed(2);
+              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) * exchangeRate["eur"] / exchangeRate["btc"]).toFixed(6);
               break;
             
             case "opt-r2e":
               returnAmount = "&euro; " + (parseFloat(inputAmount) / exchangeRate["eur"]).toFixed(2);
-              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) / exchangeRate["btc"]).toFixed(2);
+              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) / exchangeRate["btc"]).toFixed(6);
               break;
              
             case "opt-p2r":
               returnAmount = "R$ " + (parseFloat(inputAmount) * exchangeRate["gbp"]).toFixed(2);
-              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) * exchangeRate["gbp"] / exchangeRate["btc"]).toFixed(2);
+              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) * exchangeRate["gbp"] / exchangeRate["btc"]).toFixed(6);
               break;
               
             case "opt-r2p":
               returnAmount = "&pound; " + (parseFloat(inputAmount) / exchangeRate["gbp"]).toFixed(2);
-              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) / exchangeRate["btc"]).toFixed(2);
+              btcAmount = "&#x20bf; " + (parseFloat(inputAmount) / exchangeRate["btc"]).toFixed(6);
               break;
               
         }

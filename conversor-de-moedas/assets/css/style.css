@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+    --fundo: rgba(40, 42, 54, 1);
+    --texto-geral: rgba(248, 248, 242, 1);
+    --texto-destaque: rgba(255, 184, 108, 1);
+    --fundo-botao: rgba(255, 184, 108, 1);
+    --fonte-titulos: 'Roboto', sans-serif;
+    --fonte-geral: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-geral);
+    min-height: 400px;
+    color: var(--texto-geral);
+    background-color: var(--fundo);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    font-family: var(--fonte-titulos);
+    font-size: 24px;
+    color: var(--texto-destaque);
+    margin: 56px 0 5px;
+}
+
+.page-subtitle {
+    font-family: var(--fonte-titulos);
+    color: var(--texto-destaque);
+    margin-top: 14px;
+}
+
+.logo-imersao-dev {
+    width: 110px;
+    margin-top: 14px;
+}
+
+.radio-buttons {
+    height: 90px;
+    margin-top: 20px;
+}
+
+.space-left {
+    margin-left: 40px;
+}
+
+.amount-input {
+    height: 70px;
+    margin-top: 24px;
+}
+
+#amount {
+    width: 200px;
+    height: 30px;
+    border: solid 1px var(--fundo);
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+#conversion-button {
+    width: 75px;
+    height: 34px;
+    border: solid 1px var(--fundo);
+    border-radius: 6px;
+    background-color: var(--fundo-botao);
+    color: var(--fundo);
+}
+
+.amount-output {
+    height: 90px;
+}
+
+#label-amount-output {
+    font-size: 36px;
+    color: var(--texto-destaque);
+    display: none;
+}

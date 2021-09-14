@@ -14,3 +14,9 @@ function celsiusParaFahrenheit(temperaturaCelsius) {
     return (9 * temperaturaCelsius / 5) + 32;
 
 }
+
+function fahrenheitParaCelsius(temperaturaFahrenheit) {
+
+    return 5 * (temperaturaFahrenheit - 32) / 9;
+
+}

@@ -8,3 +8,9 @@ function radioClick() {
         document.getElementById("temperature").placeholder = "Informe a temperatura em ºF";
 
 }
+
+function celsiusParaFahrenheit(temperaturaCelsius) {
+
+    return (9 * temperaturaCelsius / 5) + 32;
+
+}

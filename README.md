@@ -16,9 +16,9 @@ Repositório para publicação das entregas da **Imersão Dev**.
 - ✅ Alterar o fundo da tela da maneira que achar mais legal.
 - ✅ Imprimir na própria página, em vez de imprimir no console.
 - ✅ Criar um conversor de temperatura Celsius e Fahrenheit.
-    - Apresentado logo abaixo.
+    - _Apresentado logo abaixo._
 - ❌ Colocar a conta inteira da média em apenas uma linha.
-    - Não fiz dessa maneira por não achar adequado; em vez disso, fiz o cálculo da média em uma função.
+    - _Não fiz dessa maneira por não achar adequado; em vez disso, fiz o cálculo da média em uma função._
 
 ### Conversor de temperatura 🌡️
 

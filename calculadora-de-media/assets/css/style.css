@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+    --fundo: rgba(40, 42, 54, 1);
+    --texto-geral: rgba(248, 248, 242, 1);
+    --texto-destaque: rgba(255, 184, 108, 1);
+    --fundo-botao: rgba(255, 184, 108, 1);
+    --fonte-titulos: 'Roboto', sans-serif;
+    --fonte-geral: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-geral);
+    min-height: 400px;
+    color: var(--texto-geral);
+    background-color: var(--fundo);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    font-family: var(--fonte-titulos);
+    color: var(--texto-destaque);
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: var(--texto-destaque);
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.grades-fields {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grade-field {
+    margin: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px var(--fundo);
+    border-radius: 10px;
+}
+
+#calculate-button {
+    width: 80px;
+    height: 30px;
+    background-color: var(--fundo-botao);
+    border: solid 1px orange;
+    border-radius: 8px;
+    font-weight: bold;
+    color: var(--fundo);
+    cursor: pointer;
+}
+
+.final-grade {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#text-final-grade {
+    font-size: 18px;
+    color: var(--texto-geral);
+    display: none;
+}
+
+.highlight {
+    color: var(--texto-destaque);
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/base-script.js"></script>
+  <title>Calculadora de Média - Imersão Dev - Alura</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">Calculadora de Média</h1>
+    <p class="page-subtitle">Descubra qual é a média das notas de todas as provas!</p>
+    <img src="assets/img/logo-imersao-dev.svg" class="page-logo" alt="Logo Imersão Dev">
+    <div class="grades-fields">
+      <input id="grade_1" class="grade-field" type="number" placeholder="Nota 1">
+      <input id="grade_2" class="grade-field" type="number" placeholder="Nota 2">
+      <input id="grade_3" class="grade-field" type="number" placeholder="Nota 3">
+      <input id="grade_4" class="grade-field" type="number" placeholder="Nota 4">
+      <input id="grade_5" class="grade-field" type="number" placeholder="Nota 5">
+      <input id="grade_6" class="grade-field" type="number" placeholder="Nota 6">
+    </div>
+    <div class="calculate-button-container">
+      <button id="calculate-button" onclick="calculateFinalGrade()">Calcular</button>
+    </div>
+    <div class="final-grade">
+      <span id="text-final-grade">Texto para estilizar</span>
+    </div>
+  </div>
+  <a href="https://alura.com.br" target="_blank">
+    <img src="assets/img/alura-logo.svg" class="alura-logo" alt="Alura logo">
+  </a>
+</body>
+</html>

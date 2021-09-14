@@ -11,6 +11,17 @@
         <h1 class="page-title">Conversor de Temperatura</h1>
         <p class="page-subtitle">Transforme a Temperatura entre graus Celsius e Fahrenheit!</p>
         <img src="assets/img/logo-imersao-dev.svg" class="logo-imersao-dev" alt="Logo Imersão Dev">
+        <div class="radio-buttons">
+            <input type="radio" name="convert-temperature" value="opt-c2f" onclick="radioClick()" checked>&nbsp;de &deg;C para &deg;F
+            <input type="radio" name="convert-temperature" value="opt-f2c" onclick="radioClick()">&nbsp;de &deg;F para &deg;C
+        </div>
+        <div class="temperature-input">
+            <input type="number" id="temperature" placeholder="Informe a temperatura em ºC">
+            <button id="conversion-button" onclick="conversionButtonClick()">Converter</button>
+        </div>
+        <div class="temperature-output">
+            <span id="label-temperature-output">45 &deg;F</span>
+        </div>
     </div>
 </body>
 </html>

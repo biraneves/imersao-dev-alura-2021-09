@@ -19,3 +19,8 @@ Repositório para publicação das entregas da **Imersão Dev**.
     - Apresentado logo abaixo.
 - ❌ Colocar a conta inteira da média em apenas uma linha.
     - Não fiz dessa maneira por não achar adequado; em vez disso, fiz o cálculo da média em uma função.
+
+### Conversor de temperatura 🌡️
+
+> [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/pen/XWgamZb)
+

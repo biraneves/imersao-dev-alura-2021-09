@@ -26,7 +26,7 @@ function calculateClick() {
       timeOutput = (parseFloat(distanceInput)/3.0e8) * metersPerKilometer * (1 / secondsPerHour) *
         (1 / hoursPerDay) * (1 / daysPerYear);
       elementResultParagraph.innerHTML = 'A viagem, na velocidade da luz, dura<br>aproximadamente <span id="result">' +
-        timeOutput.toFixed(1) + '</span> anos.';
+        timeOutput.toFixed(6) + '</span> ano' + (timeOutput < 2 ? "" : "s") + '.';
       
     } else {
       

@@ -47,6 +47,6 @@ Repositório para publicação das entregas da **Imersão Dev**.
 
 > [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/qBjPxKg)
 
-Dada uma distância interestelar em quilômetros, apresentar quanto tempo se demora para viajar de uma estrela a outra, à velocidade da luz. Vale notar que 1 ano-luz equivale a aproximadamente 10 trilhões de quilômetros. Foi uma decisão minha não usar valores em notação científica; portanto, a distância em quilômetros precisa ser de milhões para cima.
+Dada uma distância interestelar em quilômetros, apresentar quanto tempo se demora para viajar de uma estrela a outra, à velocidade da luz. Vale notar que 1 ano-luz equivale a aproximadamente 10 trilhões de quilômetros. Foi uma decisão minha não usar valores em notação científica; portanto, a distância em quilômetros precisa ser de 10 milhões para cima.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/83148400/133350092-287b39c4-d4b6-4de2-bb33-ab19665fec67.png"></p>

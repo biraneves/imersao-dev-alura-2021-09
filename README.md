@@ -50,3 +50,16 @@ Repositório para publicação das entregas da **Imersão Dev**.
 Dada uma distância interestelar em quilômetros, apresentar quanto tempo se demora para viajar de uma estrela a outra, à velocidade da luz. Vale notar que 1 ano-luz equivale a aproximadamente 10 trilhões de quilômetros. Foi uma decisão minha não usar valores em notação científica; portanto, a distância em quilômetros precisa ser de 10 milhões para cima.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/83148400/133350092-287b39c4-d4b6-4de2-bb33-ab19665fec67.png"></p>
+
+## 🤿 Aula 3
+
+### Mentalista 💭
+
+> [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/wvepaGb)
+
+### Desafios desta aula 🤔
+
+- ✅ Adicionar um número de tentativas para a pessoa tentar acertar e imprimir a resposta no final.
+- ✅ Quando a pessoa errar, deixar na mensagem se o número chutado é maior ou menor que o número secreto.
+- ✅ Pesquisar e aprender a diferença entre == e ===.
+    - _São dois tipos de comparativos de igualdade: a **igualdade** e a **igualdade estrita**. A primeira tenta converter os valores, se for o caso, para comparar os operandos; nessa situação, 1 == '1' retornaria **true**. A segunda compara os operandos sem convertê-los, considerando também a igualdade de tipos; dessa forma, 1 === '1' retornaria **false**, por estar comparando um número com uma string._

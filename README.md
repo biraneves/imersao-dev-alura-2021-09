@@ -57,6 +57,8 @@ Dada uma distância interestelar em quilômetros, apresentar quanto tempo se dem
 
 > [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/wvepaGb)
 
+<p align="center"><img width="404" alt="Captura de Tela 2021-09-17 às 08 22 09" src="https://user-images.githubusercontent.com/83148400/133774515-cdda17e2-f267-483b-bbb7-bac3746708ad.png"></p>
+
 ### Desafios desta aula 🤔
 
 - ✅ Adicionar um número de tentativas para a pessoa tentar acertar e imprimir a resposta no final.

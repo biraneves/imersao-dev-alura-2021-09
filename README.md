@@ -65,3 +65,20 @@ Dada uma distância interestelar em quilômetros, apresentar quanto tempo se dem
 - ✅ Quando a pessoa errar, deixar na mensagem se o número chutado é maior ou menor que o número secreto.
 - ✅ Pesquisar e aprender a diferença entre == e ===.
     - _São dois tipos de comparativos de igualdade: a **igualdade** e a **igualdade estrita**. A primeira tenta converter os valores, se for o caso, para comparar os operandos; nessa situação, 1 == '1' retornaria **true**. A segunda compara os operandos sem convertê-los, considerando também a igualdade de tipos; dessa forma, 1 === '1' retornaria **false**, por estar comparando um número com uma string._
+
+## 🤿 Aula 4
+
+Armazenar um certo número de dados (neste caso, filmes) em uma lista (_array_), bem como manipular esses dados.
+
+### AluraFlix - v. 1 🎬
+
+> [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/JjJpWzK)
+
+### Desafios desta aula 🤔
+
+- ✅ Escolher o seu tema preferido para adaptar ao nosso código.
+    - _Resolvi fazer com filmes, mesmo, pois trata-se de meu tema favorito._
+- ✅ Tentar implementar outras versões da estrutura de repetição.
+    - _Fiz como exercícios outras implementações, como forEach e while, mas preferi deixar o for.
+- ✅ Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente.
+- ✅ Criar um campo e botão para adicionar a imagem pela tela, e não diretamente no código.

@@ -5,7 +5,12 @@ var numeroSecreto = parseInt(Math.random() * 31);
 var maxTries = 5;
 
 // Elemento de apresentação de mensagens
-var elementMessage = document.getElementById("message");
+var elementMessage = null;
+
+// Inicializa elementMessage
+function initializeElement() {
+    elementMessage = document.getElementById("message");
+}
 
 // Troca os botões
 function switchButtons() {

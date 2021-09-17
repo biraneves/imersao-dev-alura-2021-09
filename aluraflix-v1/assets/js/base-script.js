@@ -80,5 +80,3 @@ function saveClick() {
   showLibrary();
   
 }
-
-showLibrary();

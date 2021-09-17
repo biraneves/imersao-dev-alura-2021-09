@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+  --fundo: rgba(40, 42, 54, 1);
+  --texto-geral: rgba(248, 248, 242, 1);
+  --texto-destaque: rgba(255, 184, 108, 1);
+  --fundo-botao: rgba(255, 184, 108, 1);
+  --fonte-titulos: 'Roboto', sans-serif;
+  --fonte-geral: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  font-family: var(--fonte-geral);
+  color: var(--texto-geral);
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: black;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title, .page-subtitle {
+  font-family: var(--fonte-titulos);
+  color: var(--texto-destaque);
+  margin: 0 0 5px;
+}
+
+.page-title {
+  font-size: 42px;
+}
+
+.page-subtitle {
+  font-size: 24px;
+}
+
+.logo-imersao-dev {
+  width: 200px;
+  margin-top: 28px;
+}
+
+.movies-input {
+  margin-top: 28px;
+}
+
+.info-input {
+  width: 250px;
+  height: 30px;
+  border: solid 1px var(--texto-geral);
+  border-radius: 6px;
+  margin: 3px;
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+.save-button {
+  width: 90px;
+  height: 34px;
+  border: solid 1px var(--fundo-botao);
+  border-radius: 17px;
+  background-color: var(--fundo-botao);
+  margin: 8px;
+}
+
+.save-button:hover {
+  border-color: orange;
+  background-color: orange;
+  color: var(--texto-geral);
+}
+
+.save-button:active {
+  border-color: gray;
+  background-color: gray;
+}
+
+.library {
+  padding: 24px;
+}
+
+.library img {
+  max-height: 250px;
+  margin: 5px;
+  border: solid 3px var(--texto-geral);
+}

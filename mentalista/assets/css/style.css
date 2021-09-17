@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+  --fundo: rgba(40, 42, 54, 1);
+  --texto-geral: rgba(248, 248, 242, 1);
+  --texto-destaque: rgba(255, 184, 108, 1);
+  --fundo-botao: rgba(255, 184, 108, 1);
+  --fonte-titulos: 'Roboto', sans-serif;
+  --fonte-geral: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  font-family: var(--fonte-geral);
+  min-height: 400px;
+  color: var(--texto-geral);
+  background-color: var(--fundo);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title, .page-subtitle {
+  font-family: var(--fonte-titulos);
+  color: var(--texto-destaque);
+}
+
+.page-title {
+  font-size: 24px;
+  margin: 56px 0 5px;
+}
+
+.page-subtitle {
+  margin-top: 14px;
+}
+
+.logo-imersao-dev {
+  width: 110px;
+  margin-top: 14px;
+}
+
+.guess-input {
+  height: 90px;
+  margin-top: 24px;
+}
+
+#guess-number {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  border: solid 1px var(--fundo);
+  border-radius: 6px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.guess {
+  width: 75px;
+  height: 34px;
+  border: solid 1px var(--fundo);
+  border-radius: 6px;
+  background-color: var(--fundo-botao);
+  color: var(--fundo);
+}
+
+.guess-output {
+  height: 50px;
+  margin-top: 14px;
+}
+
+.tries {
+  font-size: 14px;
+}
+
+#number-tries {
+  color: var(--texto-destaque);
+  font-size: 16px;
+}
+
+#message {
+  font-size: 20px;
+  color: var(--texto-destaque);
+}
+
+#restartButton {
+  display: none;
+}

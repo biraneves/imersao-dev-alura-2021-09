@@ -74,6 +74,8 @@ Armazenar um certo número de dados (neste caso, filmes) em uma lista (_array_),
 
 > [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/JjJpWzK)
 
+<p align="center"><img src="https://user-images.githubusercontent.com/83148400/133857238-d2536619-798b-44e3-9268-b0b2a14e2d5e.png"></p>
+
 ### Desafios desta aula 🤔
 
 - ✅ Escolher o seu tema preferido para adaptar ao nosso código.

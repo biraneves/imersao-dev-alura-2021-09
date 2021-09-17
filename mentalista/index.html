@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentalista - Imersão Dev - Alura</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Mentalista</h1>
+        <p class="page-subtitle">Adivinhe um número entre 0 e 30!</p>
+        <img src="assets/img/logo-imersao-dev.svg" alt="Logo Imersão Dev" class="logo-imersao-dev">
+        <div class="guess-input">
+            <input type="number" id="guess-number" placeholder="Seu chute" onfocus="this.select();"><br>
+            <button class="guess" id="guessButton" onclick="guessClick()">Chutar</button>
+            <button class="guess" id="restartButton" onclick="restartGame()">Reiniciar</button>
+        </div>
+        <div class="guess-output">
+            <p class="tries">você tem <span id="number-tries">5</span> tentativas.</p>
+            <p id="message"></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -18,8 +18,6 @@ urlImdb = [
   'https://www.imdb.com/title/tt0099785/?ref_=nv_sr_srsg_0'
 ]
 
-var divLibrary = document.querySelector('div[class="library"]');
-
 // Retira uma mensagem da tela
 function hideMessage() {
   document.getElementById("message").innerHTML = "";
@@ -27,7 +25,8 @@ function hideMessage() {
 
 // Exibe a biblioteca
 function showLibrary() {
-  divLibrary.innerHTML = ""
+    var divLibrary = document.querySelector('div[class="library"]');
+    divLibrary.innerHTML = ""
   
   // Apresenta a lista de filmes
   for (var i = 0; i < urlCartazes.length; i++) {

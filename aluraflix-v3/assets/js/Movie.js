@@ -1,3 +1,31 @@
+class Movie {
+
+    constructor(originalName, brazilianName, poster, imdb, rate) {
+
+        this.originalName = originalName;
+        this.brazilianName = brazilianName;
+        this.poster = (poster.substring(0, 4) == "http" ? poster : "https://" + poster);
+        this.imdb = (imdb.substring(0, 4) == "http" ? imdb : "https://" + imdb);
+
+        if (rate < 0 || rate > 5)
+            this.rate = 0;
+        else
+            this.rate = parseInt(rate);
+
+    }
+
+    // Getters
+    get originalName() {
+
+
+        
+    }
+
+}
+
+
+
+
 function Movie(originalName, brazilianName, poster, imdb, rate) {
 
     this.originalName = originalName;

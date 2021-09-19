@@ -70,7 +70,7 @@ Dada uma distância interestelar em quilômetros, apresentar quanto tempo se dem
 
 Armazenar um certo número de dados (neste caso, filmes) em uma lista (_array_), bem como manipular esses dados.
 
-### AluraFlix - v. 1 🎬
+### AluraFlix - v.1 🎬
 
 > [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/JjJpWzK)
 
@@ -84,3 +84,24 @@ Armazenar um certo número de dados (neste caso, filmes) em uma lista (_array_),
     - _Fiz como exercícios outras implementações, como forEach e while, mas preferi deixar o for.
 - ✅ Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente.
 - ✅ Criar um campo e botão para adicionar a imagem pela tela, e não diretamente no código.
+
+## 🤿 Aula 5
+
+Nesta aula, evoluímos o projeto da aula anterior. Como eu já havia concebido a solução com vários dos requerimentos que surgiram depois, não houve grandes mudanças.
+
+### AluraFlix - v.2 🎥
+
+> [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/oNwqzRL)
+
+<p align="center"><img width="989" alt="Captura de Tela 2021-09-19 às 08 11 48" src="https://user-images.githubusercontent.com/83148400/133925474-62ce7b45-c86c-4e44-845a-8cd20166eff4.png"></p>
+
+### Desafios desta aula
+
+- ✅ Criar um botão para remover um filme da tela.
+    - _Por limitações do CodePen, acabei criando um link para cumprir o requerimento._
+- ❌ Além de colocar a imagem do filme, também adicionar o nome por meio de outro _input_.
+    - _Aqui, cumpri o desafio de outra maneira, desde a primeira versão: usei outro input para colocar o link para a entrada sobre o filme no IMDB._
+- ✅ Guardar todos os filmes adicionados em uma lista (_array_) e percorrer essa lista toda vez que quiser imprimir ou remover um filme.
+    - _Este requerimento está satisfeito desde a primeira versão._
+- ❌ Desafio relacionado ao conversor de moedas.
+    - _Este desafio está parcialmente satisfeito. Farei a criação das funções em outro momento._

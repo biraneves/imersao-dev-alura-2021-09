@@ -13,7 +13,7 @@ function Movie(originalName, brazilianName, poster, imdb, rate) {
     this.show = function() {
 
         showString = '<a href="' + this.imdb + '" target="_blank">' +
-            '<img src="' + this.poster + "'></a>" +
+            '<img src="' + this.poster + '"></a>' +
             '<p class="movie-title">' + this.originalName + '<br>(' +
             this.brazilianName + ')</p>';
         

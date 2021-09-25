@@ -105,3 +105,23 @@ Nesta aula, evoluímos o projeto da aula anterior. Como eu já havia concebido a
     - _Este requerimento está satisfeito desde a primeira versão._
 - ❌ Desafio relacionado ao conversor de moedas.
     - _Este desafio está parcialmente satisfeito. Farei a criação das funções em outro momento._
+
+## 🤿 Aula 6
+
+O objetivo desta aula foi o uso de objetos do JavaScript, bem como a criação de código HTML dinâmico.
+
+### Tabela de Classificação 🕹
+
+> [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/RwgePJP)
+
+### Desafios desta aula
+
+- ❌ Elaborar a seguinte lógica: quando houver empate, automaticamente ajustar o empate para todos os jogadores.
+    - _Não desenvolvi esta solução pois não fez sentido para mim. Se estamos mantendo o registro de uma competição com vários jogadores que se enfrentam aos pares, o requisito apresentado não se aplica._
+- ❌ Validar se todos os pontos estão fazendo sentido, tanto o número de empates, quanto de derrotas e vitórias.
+    - _Também optei por não desenvolver este requisito. Se estamos acompanhando uma competição que ocorre por rodadas, é possível que jogadores estejam em rodadas diferentes._
+- ❌ Adicionar a imagem de cada jogador.
+    - _A desenvolver._
+- ✅ Criar um botão para zerar todos os pontos.
+- ✅ Criar um botão e _input_ para adicionar novos jogadores.
+- ✅ Utilizar seu jogo preferido para se basear na pontuação da sua tabela de classificação.

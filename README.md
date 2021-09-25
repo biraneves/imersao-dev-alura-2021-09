@@ -114,6 +114,8 @@ O objetivo desta aula foi o uso de objetos do JavaScript, bem como a criação d
 
 > [Resolução publicada no CodePen](https://codepen.io/b1r4n3v35/full/RwgePJP)
 
+<p align="center"><img width="1208" alt="Captura de Tela 2021-09-24 às 22 38 33" src="https://user-images.githubusercontent.com/83148400/134753845-259e13f4-a100-4cd4-b4f2-9c3df2ed0f48.png"></p>
+
 ### Desafios desta aula
 
 - ❌ Elaborar a seguinte lógica: quando houver empate, automaticamente ajustar o empate para todos os jogadores.

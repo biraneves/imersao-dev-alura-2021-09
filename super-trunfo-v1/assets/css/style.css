@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
+
+:root {
+    --fundo: rgba(40, 42, 54, 1);
+    --texto-geral: rgba(248, 248, 242, 1);
+    --texto-destaque: rgba(255, 184, 108, 1);
+    --fundo-botao: rgba(255, 184, 108, 1);
+    --fonte-titulos: 'Roboto', sans-serif;
+    --fonte-geral: 'Noto Sans JP', sans-serif;
+    --destaque-carta: rgba(3, 108, 182, 1);
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body {
+    background-image: url('../img/super-trunfo-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: var(--fonte-geral);
+    color: var(--texto-geral);
+}

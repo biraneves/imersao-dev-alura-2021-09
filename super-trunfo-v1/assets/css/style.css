@@ -26,3 +26,8 @@ body {
     font-family: var(--fonte-geral);
     color: var(--texto-geral);
 }
+
+.container {
+    padding: 20px;
+    text-align: center;
+}

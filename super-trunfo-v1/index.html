@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo - Imersão Dev - Alura</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Super Trunfo - v.1</h1>
+        <h2 class="page-subtitle">Países</h2>
+        <img src="assets/img/logo-imersao-dev.svg" alt="Logo Imersão Dev" class="logo-imersao-dev">
+        <div class="controle-partida">
+            <button class="botao" id="btn-nova-partida" onclick="inicializaPartida()">Nova partida</button>
+            <button class="botao" id="btn-sortear" onclick="sortearCartas()" disabled="true">Sortear cartas</button>
+        </div>
+        <div id="placar">
+            <div class="pontos-jogador">
+                <h3>Jogador</h3>
+                <p id="lbl-pontos-jogador"></p>
+            </div>
+            <div class="pontos-maquina">
+                <h3>Computador</h3>
+                <p id="lbl-pontos-maquina"></p>
+            </div>
+        </div>
+        <div id="instrucoes">
+            <p>Analise sua carta e escolha o atributo vencedor!</p>
+        </div>
+        <div id="mesa">
+            <div class="div-esquerda">
+                <div id="carta-jogador"></div>
+            </div>
+            <div class="div-direita">
+                <div id="carta-maquina"></div>
+            </div>
+        </div>
+        <div id="resultado">
+            <h3 id="lbl-resultado">Inicie sorteando as cartas!</h3>
+        </div>
+        <div class="controle-jogar">
+            <button class="botao" id="btn-jogar" onclick="jogar()" disabled="true">Jogar</button>
+        </div>
+    </div>
+</body>
+</html>
